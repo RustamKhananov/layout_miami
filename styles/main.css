@@ -301,11 +301,23 @@ textarea {
           flex-direction: column;
   margin-bottom: 60px; }
   .gallery__title {
+    position: relative;
     font-size: 48px;
     line-height: 48px;
     font-weight: bold;
     text-align: center;
     margin-top: 152px; }
+    .gallery__title:after {
+      content: "";
+      background-image: url(../images/Shape.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 23px;
+      height: 16px;
+      position: absolute;
+      bottom: -16px;
+      left: calc(50% - 11px); }
     @media screen and (max-width: 1102px) {
       .gallery__title {
         margin-top: 64px;
@@ -343,7 +355,9 @@ textarea {
     margin: 24px auto;
     background-color: white;
     width: 188px;
-    color: #0075ff; }
+    color: #0075ff;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 #gal-photo1 {
   background-image: url(../images/46.png); }
@@ -416,7 +430,11 @@ textarea {
   .form__button {
     margin: 24px 0;
     background-color: #0075ff;
-    color: white; }
+    color: white;
+    -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+            box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
+    .form__button:hover {
+      background-color: #0067df; }
 
 .consultation {
   display: -webkit-box;
@@ -447,8 +465,10 @@ textarea {
             -ms-flex-align: center;
                 align-items: center; } }
   .consultation__title1 {
+    position: relative;
     margin: 93px;
     font-size: 48px;
+    line-height: 48px;
     font-weight: bold; }
     @media screen and (max-width: 1102px) {
       .consultation__title1 {
@@ -456,6 +476,17 @@ textarea {
         margin-bottom: 53px;
         font-size: 36px;
         line-height: 36px; } }
+    .consultation__title1:after {
+      content: "";
+      background-image: url(../images/Shape.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 23px;
+      height: 16px;
+      position: absolute;
+      bottom: -16px;
+      left: calc(50% - 11px); }
   .consultation__title2 {
     font-size: 24px;
     font-weight: bold;
@@ -481,11 +512,23 @@ textarea {
       -ms-flex-align: center;
           align-items: center; }
   .testimonials__title1 {
+    position: relative;
     font-size: 48px;
     line-height: 48px;
     font-weight: bold;
     margin-bottom: 93px;
     margin-top: 128px; }
+    .testimonials__title1:after {
+      content: "";
+      background-image: url(../images/Shape.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 23px;
+      height: 16px;
+      position: absolute;
+      bottom: -16px;
+      left: calc(50% - 11px); }
     @media screen and (max-width: 1102px) {
       .testimonials__title1 {
         font-size: 36px;
@@ -603,11 +646,23 @@ textarea {
             -ms-flex-align: start;
                 align-items: flex-start; } }
   .contact__title1 {
+    position: relative;
     font-size: 48px;
     font-weight: bold;
     line-height: 48px;
     margin-top: 152px;
     margin-bottom: 93px; }
+    .contact__title1:after {
+      content: "";
+      background-image: url(../images/Shape.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 23px;
+      height: 16px;
+      position: absolute;
+      bottom: -16px;
+      left: calc(50% - 11px); }
     @media screen and (max-width: 1102px) {
       .contact__title1 {
         margin-top: 64px;
