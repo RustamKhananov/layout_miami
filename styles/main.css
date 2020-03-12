@@ -15,13 +15,16 @@
       position: relative;
       top: 0;
       left: 0; } }
-  @media (max-width: 1102px) {
-    .header__phone {
-      display: none; } }
+  .header__phone {
+    text-decoration: none;
+    color: white; }
+    @media (max-width: 1102px) {
+      .header__phone {
+        display: none; } }
   .header__phone-button {
     height: 18px;
     width: 18px;
-    background-image: url(../images/phone.svg);
+    background-image: url(../images/phone.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
@@ -673,6 +676,9 @@ textarea {
     font-size: 14px;
     line-height: 27px;
     color: #9fadc2; }
+  .contact__email {
+    text-decoration: none;
+    color: #3e3e3e; }
 
 body {
   background: white; }
