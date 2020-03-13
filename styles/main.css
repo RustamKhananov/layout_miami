@@ -116,13 +116,14 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: fixed;
   top: 620px;
   left: 0;
   right: 0;
   margin: 0 auto;
   -webkit-transition: color 0.2s;
-  transition: color 0.2s; }
+  transition: color 0.2s;
+  z-index: 1; }
   .nav__toggler {
     display: none;
     position: absolute;
@@ -686,6 +687,11 @@ textarea {
   .contact__email {
     text-decoration: none;
     color: #3e3e3e; }
+
+html * {
+  outline: none; }
+  html *:focus {
+    background-color: #f8d3d8; }
 
 body {
   background: white; }
