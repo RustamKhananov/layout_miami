@@ -144,7 +144,6 @@ textarea {
       top: 0; }
   @media screen and (max-width: 1102px) {
     .nav {
-      position: fixed;
       width: 100%;
       height: 568px;
       background-color: #0075ff;
@@ -238,8 +237,6 @@ textarea {
   height: 76px; }
 
 .footer {
-  position: -webkit-sticky;
-  position: sticky;
   z-index: -1;
   bottom: 0;
   display: -webkit-box;
