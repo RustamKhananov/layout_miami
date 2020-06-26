@@ -299,7 +299,8 @@ textarea {
       .title-block__article {
         width: 100%; } }
   .title-block__here {
-    color: #0075ff; }
+    color: #0075ff;
+    cursor: pointer; }
 
 .gallery {
   display: -webkit-box;
@@ -376,7 +377,13 @@ textarea {
         width: calc(33% - 10px); } }
   .gallery__color-text {
     color: #0075ff;
-    font-weight: bold; }
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none; }
+  .gallery__black-text {
+    cursor: pointer;
+    text-decoration: none;
+    color: black; }
   .gallery__button {
     margin: 24px auto;
     background-color: white;
